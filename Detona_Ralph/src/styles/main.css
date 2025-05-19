@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../images/wall.png);
+
+  
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    height: 90px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 5px solid #ffd700;
+    
+}
+
+.panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid #000000;
+    background-color: #50b475f0;
+}
+
+.enemy{
+    background-image: url(../images/ralph.png);
+    background-size: cover;
+}
+
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-time h2:nth-child(2), .menu-score h2:nth-child(2){
+    margin-top: 1rem;
+}
+
+.menu-time h2, .menu-score{
+    margin-top: 1rem;
+}
+
+#score, #time-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#restart{
+    height: 100px;
+    width: 180px;
+    display: flex;
+    background-color: #28a745;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+    cursor: pointer; 
+    border-radius: 8px;
+    font-size: 1rem;              
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Efeito ao passar o mouse */
+#restart:hover {
+  background-color: #218838;    /* tom mais escuro */
+  transform: translateY(-1px);  /* leve “elevação” */
+}
+
+/* Efeito ao pressionar */
+#restart:active {
+  background-color: #1e7e34;    /* tom ainda mais escuro */
+  transform: translateY(0);     /* volta à posição normal */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
