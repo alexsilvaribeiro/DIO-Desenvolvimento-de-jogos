@@ -82,7 +82,7 @@ function startGame() {
  */
 function restartGame() {
   state.values.result = 0;
-  state.values.currentTime = 10;
+  state.values.currentTime = 100;
   state.view.lives.textContent = 3;
   state.view.score.textContent = 0;
   state.view.timeLeft.textContent = 10;

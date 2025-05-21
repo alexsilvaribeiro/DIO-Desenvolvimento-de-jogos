@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de memória com Emojis</title>
+
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>JOGO DA MEMÓRIA</h2>
+        <div class="game"></div>
+        <button class="reset" 
+        onclick="window.location.reload()">RESET GAME</button>
+    </div>
+    <div class="menu-time">
+                <h2 id="tempo" style="color: red;">Tempo</h2>
+                <h2 id="time-left">0</h2>
+            </div>
+            <div class="menu-score">
+                <h2 id="Placar" style="color: red;">Movimentos</h2>
+                <h2 id="score">0</h2>
+            </div>
+    
+    <script src="./script.js" defer></script>
+</body>
+</html>
